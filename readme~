@@ -1,0 +1,15 @@
+## the programs included are used for calculating and minimizing joint compliance of three degree of freedom planaer link robot having three links##
+
+Description:
+
+1. The robot is a planar link robot 
+2. The joint compliance is calculated as a matrix for the three joints 
+3. The joint compliance is minimized to find the minimum deflections 
+4. Two matlab functions, fmincon and fminsearch can be used to minimize, both use different optimization minimization algorithms. 
+
+
+
+* the force matrix is take of ones vector for simplicity, it can be changed in the code. 
+* compliance can be calculated by two methods which are described in the code. 
+* the respository also contains an excel program for joint compliance minimization. 
+
