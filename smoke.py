@@ -22,7 +22,7 @@ from matplotlib import pyplot as plt
 
 ################## Find the edges of the thresholded image ############
 
-thresh1 = cv2.imread('thresh1.jpg',0) 
+thresh1 = cv2.imread('source/thresh1.jpg',0) 
 edges = cv2.Canny(thresh1,100,200)
 edge = 'edge'+'IMG_1955'+'.png'
 cv2.imwrite(edge,edges)           # display the edges of the flow lines
